@@ -1,0 +1,11 @@
+train_data_input: "datasets/concat/train/feat.npy"
+train_data_target: "datasets/concat/train/p_lab.npy"
+valid_data_input: "datasets/concat/valid/feat.npy"
+valid_data_target: "datasets/concat/valid/p_lab.npy"
+save_dir: "res_CRNN_ex/p/"
+n_chan: 1
+in_dim: 128
+hid_dim: 256
+n_symb_set: [129]
+num_mid_layers: 3
+batch_size: 10
